@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Successful</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        .details {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Registration Successful!</h1>
+
+    <h2>Hi {{ name }}!</h2>
+
+    <p>You have registered successfully.</p>
+
+    <div class="details">
+        <p>Email: {{ email }}</p>
+        <p>Phone: {{ phone }}</p>
+        <p>Event: {{ event }}</p>
+    </div>
+
+    <a href="/">Go to Home</a>
+
+</body>
+</html>
